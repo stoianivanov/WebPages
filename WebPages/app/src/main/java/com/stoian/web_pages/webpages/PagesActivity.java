@@ -18,6 +18,6 @@ public class PagesActivity extends Activity {
         setContentView(R.layout.activity_pages);
 
         grid = (GridView) findViewById(R.id.grid);
-        
+        grid.setAdapter(new PagesAdapter(this));
     }
 }
