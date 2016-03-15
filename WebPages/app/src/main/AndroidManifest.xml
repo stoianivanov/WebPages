@@ -26,6 +26,11 @@
             android:name=".PagesAdapter"
             android:label="@string/title_activity_pages_adapter"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <provider
+            android:name=".PageProvider"
+            android:authorities="com.stoian.web_pages.Pages"
+        />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 
